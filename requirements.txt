@@ -1,0 +1,8 @@
+torch  --index-url https://download.pytorch.org/whl/cu121
+torchvision--index-url https://download.pytorch.org/whl/cu121
+torchaudio --index-url https://download.pytorch.org/whl/cu121
+tiktoken==0.7.0
+datasets==2.20.0
+packaging==24.1
+causal-conv1d>=1.2.0
+wandb==0.17.1
