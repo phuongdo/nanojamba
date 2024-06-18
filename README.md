@@ -1,4 +1,4 @@
-# nanoJamba
+# nanojamba
 
 Blog: https://medium.com/@phuongdoviet/arc-agi-with-nano-jamba-2227152a96b6
 
@@ -16,7 +16,7 @@ cd mamba && pip install -e . && cd .
 ```
 
 
-### Download Dataset
+#### Download Dataset
 
 ```bash
 cd nanojamba
