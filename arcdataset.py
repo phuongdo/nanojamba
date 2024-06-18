@@ -1,10 +1,15 @@
-# -----------------------------------------------------------------------------
-# dataloader for arc challenge
-
-import json
-import tiktoken
-import numpy as np
+import os
+import math
+import time
+import inspect
+from dataclasses import dataclass
+import torch
+import torch.nn as nn
+from torch.nn import functional as F
 from torch.utils.data import Dataset, DataLoader
+import json
+import numpy as np
+
 
 @dataclass
 class ARCDatasetConfig:
